@@ -1,0 +1,30 @@
+{
+  "name": "tweet-queue",
+  "window": {
+    "title": "Tweet Queue",
+    "width": 800,
+    "height": 600
+  },
+  "endpoints": {
+    "login": {
+      "function": "login",
+      "path": "/login"
+    },
+    "createTweet": {
+      "function": "create_tweet",
+      "path": "/tweets/create"
+    },
+    "publishTweet": {
+      "function": "publish_tweets",
+      "path": "/tweets/publish"
+    },
+    "reorderTweets": {
+      "function": "reorder_tweets",
+      "path": "/tweets/reorder"
+    },
+    "removeTweet": {
+      "function": "remove_tweet",
+      "path": "/tweets/remove"
+    }
+  }
+}
